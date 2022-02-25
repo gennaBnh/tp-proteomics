@@ -165,6 +165,7 @@ df = pandas.read_csv()
 
 Quel est le type de l'objet `df`?
 ```
+type(df) renvoie pandas.core.frame.DataFrame
 
 ```
 
@@ -172,24 +173,31 @@ Quel est le type de l'objet `df`?
 Que permettent les méthodes suivantes?
 ###### df.shape
 ```
+Donne les dimensions de la dataframe pandas
 ```
 ###### df.head()
 ```
+Visualisation des premières lignes de la dataframe
 ```
 ###### df.tail()
 ```
+Visualisation des dernières lignes de la dataframe
 ```
 ###### df.columns
 ```
+Donne le nom des différentes colonnes
 ```
 ###### df.dtypes
 ```
+
 ```
 ###### df.info
 ```
+Affiche le contenu des 5 premières et 5 dernières lignes du dataframe
 ```
 ###### df.describe()
 ```
+
 ```
 ###### df.dropna()
 ```
