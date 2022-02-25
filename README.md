@@ -201,6 +201,7 @@ Affiche le contenu des 5 premières et 5 dernières lignes du dataframe
 ```
 ###### df.dropna()
 ```
+Enlève les lignes avec des valeurs manquantes
 ```
 
 ##### Accès aux éléments d'une table de données
@@ -220,11 +221,12 @@ On peut accéder aux valeurs du DataFrame via des indices ou plages d'indice. La
 Il y a différentes manières de le faire, l'utilisation de `.iloc[slice_ligne,slice_colonne]` constitue une des solutions les plus simples. N'oublions pas que shape permet d'obtenir les dimensions (lignes et colonnes) du DataFrame.
 ###### Acceder aux cinq premières lignes de toutes les colonnes
 ```python
-
+values.iloc[0:5,0:2]
 ```
 
 ###### Acceder à toutes les lignes de la dernière colonne
 ```python
+values.iloc[0:5,1:]
 
 ```
 
